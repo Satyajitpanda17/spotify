@@ -102,7 +102,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
             end: Alignment.bottomCenter,
             colors: [
               const Color(0xFFAF1018),
-              Theme.of(context).colorScheme.background,
+              Theme.of(context).scaffoldBackgroundColor,
             ],
             stops: const [0, 0.4],
           ),
